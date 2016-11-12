@@ -1,0 +1,7 @@
+[
+    {
+        "layout": "/index.hbs",
+        "content": "/content/index.js",
+        "output": "/index.html"
+    }
+]
