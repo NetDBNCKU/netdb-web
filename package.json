@@ -1,0 +1,23 @@
+{
+  "name": "netdb-web",
+  "version": "0.0.0",
+  "description": "Home Page of NetDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetDBNCKU/netdb-web.git"
+  },
+  "author": "FrankYang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NetDBNCKU/netdb-web/issues"
+  },
+  "homepage": "https://github.com/NetDBNCKU/netdb-web#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "handlebars": "^4.0.5"
+  }
+}
