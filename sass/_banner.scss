@@ -19,20 +19,24 @@
     text-align: center;
 
     h2 {
+        line-height: 1.75em;
         margin: 0;
         padding: 0;
+        margin: 0 0 1em 0;
         border: 0;
+        padding: 0.35em 1em;
         font-size: 30px;
+        letter-spacing: 0.225em;
         -moz-transform: scale(1);
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
         display: inline-block;
 
-        -webkit-animation-name: title-font-size;
+        -webkit-animation-name: title-emerge;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: 1;
-        animation-name: title-font-size;
+        animation-name: title-emerge;
         animation-timing-function: ease-in-out;
         animation-duration: 1s;
         animation-iteration-count: 1;
@@ -49,7 +53,8 @@
             -webkit-animation-name: title-border;
             -webkit-animation-duration: 1s;
             animation-name: title-border;
-            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-duration: 1.5s;
             width:100%;
         }
         &::after {
@@ -61,16 +66,45 @@
 
     @keyframes title-border {
         from {width: 0%;}
+        40% {width: 0%;}
         to {width: 100%;}
     }
 
-    @keyframes title-font-size {
-        from {font-size: 10px;}
-        to {font-size: 30px;}
+    @keyframes title-emerge {
+        from {opacity: 0;}
+        to {opacity: 1;}
     }
-}
 
-h2 {
-    line-height: 1.75em;
+    p {
+        letter-spacing: 0.225em;
+        animation-name: p-emerge;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+    }
 
+    @keyframes p-emerge {
+        from {opacity: 0;}
+        75% {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    .more {
+        width: 100%;
+        border: none;
+        bottom: 0;
+        color: inherit;
+        height: 8.5em;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        animation-name: font-emerge;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+    }
+
+    @keyframes font-emerge {
+        from {height: 0;}
+        75% {height: 0;}
+        to {height: 8.5em;}
+    }
 }
