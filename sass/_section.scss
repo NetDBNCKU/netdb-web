@@ -15,14 +15,29 @@ section{
 }
 
 #about{
-	
+	text-align: center;
+	#description{
+		width: 80vw;
+		margin:auto;
+		padding: 5vh 0 10vh 0;
+	}
+	.cards{
+		width: 80vw;
+		text-align: center;
+		margin:auto;
+		display: flex;
+	}
+	.aboutCard{
+		width:40vw;
+		height: 80vh;
+		background: $colorGrey;
+		border: 1px solid $colorGrey;
+		display: inline-block;
+		margin:  0 5vw 0 5vw;
+	}
 }
 
 #project{
 	background: #EDF1F4;
 }
 
-.aboutCard{
-	float:left;
-	margin-left: 10vw;
-}
