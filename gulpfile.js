@@ -1,12 +1,19 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const shell = require('gulp-shell');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const syntax = require('postcss-scss');
 
 
 gulp.task('sass', function() {
+  const processors = [
+      autoprefixer({browsers: ['last 2 version', '> 1%']}),
+  ];
   return gulp.src('./sass/*.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('./css'))
+    .pipe(postcss(processors, {syntax: syntax}))
+    .pipe(gulp.dest('./css'));
 });
 
 gulp.task('hbs', function() {
