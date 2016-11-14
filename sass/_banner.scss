@@ -3,17 +3,8 @@
     min-height: 35em;
     color: #fff;
     background: #5A6372;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
-    -moz-flex-direction: column;
-    -webkit-flex-directoin: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
     justify-content: center;
     cursor: default;
     text-align: center;
@@ -27,15 +18,9 @@
         padding: 0.35em 1em;
         font-size: 30px;
         letter-spacing: 0.225em;
-        -moz-transform: scale(1);
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
         transform: scale(1);
         display: inline-block;
 
-        -webkit-animation-name: title-emerge;
-        -webkit-animation-duration: 1s;
-        -webkit-animation-iteration-count: 1;
         animation-name: title-emerge;
         animation-timing-function: ease-in-out;
         animation-duration: 1s;
@@ -50,8 +35,6 @@
             display: block;
             height: 2px;
             position: absolute;
-            -webkit-animation-name: title-border;
-            -webkit-animation-duration: 1s;
             animation-name: title-border;
             animation-timing-function: ease-in-out;
             animation-duration: 1.5s;
