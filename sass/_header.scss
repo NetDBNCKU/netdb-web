@@ -7,6 +7,7 @@
     left: 0;
     top: 0;
 
+
     h3 {
         height: inherit;
         line-height: inherit;
@@ -50,4 +51,8 @@
         75% {opacity: 0;}
         to {opacity: 1;}
     }
+}
+
+.header-scroll {
+    background: #2e3842;
 }
