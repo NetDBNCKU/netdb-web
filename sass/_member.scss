@@ -1,0 +1,44 @@
+$colorDarkgrey:#666666;
+$colorDarkblue:#5A6372;
+$colorOrange:#FF9966;
+$colorGrey:#EDF1F4;
+
+#member{
+	padding-left: 6vw;
+	h2{
+		padding-top: 3vh;
+		text-align: center;
+	}
+	.memberListTitle{
+	/*	background-color: $colorOrange;
+		height: 0.5em; 
+			
+		background-color: $colorOrange;*/
+		
+		.titleDecoration{
+			background-color: $colorOrange;
+			height: 0.4em;
+			margin-top: -1.2em;
+		}
+		#currentMemberDecoration{
+			width: 9em;
+		}
+		#alumniDecoration{
+			width: 4em;
+		}
+
+	}
+
+	.memberList{
+			display: flex;
+		.memberCard{
+			text-align: center;
+			margin: 0 5vw 0 5vw;
+
+		}
+		img{
+			padding-top:5vh;
+			width: 11vw;
+		}
+	}
+}

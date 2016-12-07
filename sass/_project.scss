@@ -1,0 +1,30 @@
+$colorDarkgrey:#666666;
+$colorDarkblue:#5A6372;
+$colorOrange:#FF9966;
+$colorGrey:#EDF1F4;
+
+#project{
+	height: 100vh;
+	h2{
+		padding-top: 3vh;
+		text-align: center;
+	}
+	background: #EDF1F4;
+	.projectCard{
+		display: flex;
+		width: 90vw;
+		height: 25vh;
+		margin: auto;
+		margin-bottom: 5vh;
+		background:#ffffff;
+		border-radius:1em;
+		img{
+			width: auto;
+			outline: 1px $colorGrey;
+		}
+		.projectInfo{
+			margin: 1vh 0 0 3vw ;
+		}
+	}
+}
+
