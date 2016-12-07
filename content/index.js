@@ -4,6 +4,7 @@ const data = {
   "about-title": "About",
   "project-title": "Project",
   "member-title": "Member",
+  "menu-title": "Menu",
   "banner-title": "NETDB",
   // "banner-intro": "PASSION · INNOVATION · SHARING",
   "banner-intro": "熱情 · 創新 · 分享",
