@@ -3,34 +3,59 @@ $colorDarkblue:#5A6372;
 $colorOrange:#FF9966;
 $colorGrey:#EDF1F4;
 
-#about{
-	height: 80vh;
-	h2{
-		padding-top: 3vh;
+#about {
+	text-align: center;
+
+	h2 {
+		padding-top: 2.5em;
 		text-align: center;
 	}
-	text-align: center;
-	#description{
-		width: 70vw;	
-		margin:auto;
-		padding: 5vh 0 10vh 0;
+
+	#description {
+		width: 74%;
+		margin: 0 auto;
+		padding: 5vh 0 5vh 0;
+        font-size: 1.2em;
+        font-family: 'Noto Sans TC', sans-serif;
+        line-height: 2em;
 	}
-	.cards{
+
+	.cards {
 		width: 100%;
 		text-align: center;
 		margin:auto;
 		display: flex;
 	}
-	.aboutCard{
+
+	.aboutCard {
 		width:30vw;
-		height: 54vh;
 		background: $colorGrey;
 		border: 1px solid $colorGrey;
 		align-items:center;
 		margin:  0 5vw 0 5vw;
-		img{
+
+		img {
 			width: 50%;
 			height: auto;
+            margin: 5px auto;
 		}
+
+        p {
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.5em;
+        }
 	}
+}
+
+@media screen and (max-width: 450px) {
+    #about .cards {
+        display: block;
+    }
+	#about .aboutCard {
+        width: 80vw;
+		margin:  5vw 10vw;
+    }
 }
