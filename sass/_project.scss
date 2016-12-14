@@ -4,27 +4,82 @@ $colorOrange:#FF9966;
 $colorGrey:#EDF1F4;
 
 #project{
-	height: 100vh;
-	h2{
+    padding-bottom: 2vh;
+	background: #EDF1F4;
+
+	h2 {
 		padding-top: 2.5em;
 		text-align: center;
 	}
-	background: #EDF1F4;
-	.projectCard{
+
+	.projectCard {
 		display: flex;
 		width: 90vw;
 		height: 25vh;
-		margin: auto;
-		margin-bottom: 5vh;
-		background:#ffffff;
-		border-radius:1em;
-		img{
-			width: auto;
-			outline: 1px $colorGrey;
-		}
-		.projectInfo{
-			margin: 1vh 0 0 3vw ;
+		margin: 0 5vw 5vh 5vw;
+		background: #ffffff;
+		border-radius: 1em;
+
+        h3 {
+            margin: 2.5vh 0;
+            font-size: 1.5em;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        p {
+            line-height: 1.7em;
+            text-align: justify;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .projectCard-img {
+            width: 20vw;
+            margin: 2.5vh 2.5vw;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+
+            img {
+                width: 15vh;
+                margin: auto;
+                outline: 1px $colorGrey;
+            }
+        }
+
+		.projectCard-info {
+            width: 70vw;
+			margin: 1vh 2vw;
 		}
 	}
 }
 
+@media screen and (max-width: 500px) {
+    #project {
+        .projectCard {
+            height: auto;
+            display: block;
+
+            .projectCard-img {
+                width: 100%;
+                margin: auto;
+                display: block;
+                img {
+                    width: 60%;
+                }
+            }
+            .projectCard-info {
+                width: 100%;
+                margin: auto;
+
+                h3 {
+                    text-align: center;
+                }
+
+                p {
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
