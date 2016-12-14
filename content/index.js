@@ -35,9 +35,15 @@ const data = {
   "project-item-description-3": "Instants是Chrome的App，安裝後可以在Chrome的新分頁看到即時的環境指標、票房排名、本週上映電影、新聞及藝文活動等，目前下載量已突破15000次。",
   "current-member-title": "Current Member",
   "current-member-list":[
-    { Name: "Kun-Ta Chuang (prof.)", Specialty: "Data Analysis",imageURL:"image/member/ktchuang.png"},
-    { Name: "Kun-Ta Chuang (prof.)", Specialty: "Data Analysis",imageURL:"image/member/ktchuang.png"},
-    { Name: "Kun-Ta Chuang (prof.)", Specialty: "Data Analysis",imageURL:"image/member/ktchuang.png"}
+    { Name: "Kun-Ta Chuang (prof.)", Specialty: "Data Mining, Epidemic Computing", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/ktchuang.jpg", email: "ktchuang@mail.ncku.edu.tw", github: "https://github.com/ktchuang"},
+    { Name: "Bo-Heng Chen (PhD)", Specialty: "Social Media Mining, Spatio-Temporal Mining", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/bohengchen.jpg", email: "bhchen@netdb.csie.ncku.edu.tw", github: "https://github.com/bohengchen"},
+    { Name: "Shan-Yun Teng (PhD)", Specialty: "Social Computing, Sensor Network Mining ", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/shan-yun-teng.jpg", email: "sydang.ncku@gmail.com", github: "https://github.com/sharonning"},
+    { Name: "Pei-Hsuan Hsieh (PhD)", Specialty: "Product Design, Data Visualization", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/peihsuan.jpg", email: "peihsuanhs@gmail.com", github: "https://github.com/peihsuan"},
+    { Name: "Chi-Hsuan Huang (MS)", Specialty: "Web development, Data visualization", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/chihsuan.jpeg", email: "chihsuan.tw@gmail.com", github: "https://github.com/chihsuan"},
+    { Name: "Kao-Cheng Lee (MS)", Specialty: "Distributed computing, Data analysis", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/kao-cheng.png", email: "dfgkope@gmail.com"},
+    { Name: "Po-An Yang (MS)", Specialty: "Web Backend, Backend Architecture", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/poanyang.jpg", email: "frankyang.netdb@icloud.com", github: "https://github.com/FrankYang0529"},
+    { Name: "Wei Lee (MS)", Specialty: "Machine Learning, Web Backend", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/leew.jpg", email: "cl87654321@gmail.com", github: "https://github.com/Lee-W"},
+    { Name: "Jie-Han Chen (MS)", Specialty: "Backend Optimization, Software Engineering", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/jielite.jpg", email: "jielite.tw@gmail.com", github: "https://github.com/JIElite"}
   ],
   "alumni-member-title":"Alumni",
   "alumni-list":[
