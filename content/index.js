@@ -38,12 +38,17 @@ const data = {
     { Name: "Kun-Ta Chuang (prof.)", Specialty: "Data Mining, Epidemic Computing", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/ktchuang.jpg", email: "ktchuang@mail.ncku.edu.tw", github: "https://github.com/ktchuang"},
     { Name: "Bo-Heng Chen (PhD)", Specialty: "Social Media Mining, Spatio-Temporal Mining", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/bohengchen.jpg", email: "bhchen@netdb.csie.ncku.edu.tw", github: "https://github.com/bohengchen"},
     { Name: "Shan-Yun Teng (PhD)", Specialty: "Social Computing, Sensor Network Mining ", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/shan-yun-teng.jpg", email: "sydang.ncku@gmail.com", github: "https://github.com/sharonning"},
+    { Name: "Yen-Kuan Lee (PhD)", Specialty: "Database, Knowledge Graph", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/kevin.jpg", email: "yenkuanlee@gmail.com", github: "https://github.com/yenkuanlee"},
     { Name: "Pei-Hsuan Hsieh (PhD)", Specialty: "Product Design, Data Visualization", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/peihsuan.jpg", email: "peihsuanhs@gmail.com", github: "https://github.com/peihsuan"},
     { Name: "Chi-Hsuan Huang (MS)", Specialty: "Web development, Data visualization", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/chihsuan.jpeg", email: "chihsuan.tw@gmail.com", github: "https://github.com/chihsuan"},
     { Name: "Kao-Cheng Lee (MS)", Specialty: "Distributed computing, Data analysis", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/kao-cheng.png", email: "dfgkope@gmail.com"},
     { Name: "Po-An Yang (MS)", Specialty: "Web Backend, Backend Architecture", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/poanyang.jpg", email: "frankyang.netdb@icloud.com", github: "https://github.com/FrankYang0529"},
     { Name: "Wei Lee (MS)", Specialty: "Machine Learning, Web Backend", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/leew.jpg", email: "cl87654321@gmail.com", github: "https://github.com/Lee-W"},
-    { Name: "Jie-Han Chen (MS)", Specialty: "Backend Optimization, Software Engineering", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/jielite.jpg", email: "jielite.tw@gmail.com", github: "https://github.com/JIElite"}
+    { Name: "Jie-Han Chen (MS)", Specialty: "Backend Optimization, Software Engineering", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/jielite.jpg", email: "jielite.tw@gmail.com", github: "https://github.com/JIElite"},
+    { Name: "Hao-Tzu Huang (MS)", Specialty: "Spatiotemporal data analysis, Natural language processing", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/nacat.jpg", email: "nanahow0911@gmail.com", github: "https://github.com/nacat"},
+    { Name: "Meng-Tse, Hang (Bachelor)", Specialty: "Web Frontend, Design thinking", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/tsehang.jpg", email: "a54383813@gmail.com", github: "https://github.com/TseHang"},
+    { Name: "Cheng-Kuan Ou (Bachelor)", Specialty: "Web Backend, Data analysis", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/chengkuan.jpg", email: "csiekuan@gmail.com", github: "https://github.com/cheng-kuan"},
+    { Name: "Lo-Pang-Yun Ting (Bachelor)", Specialty: "Web Frontend, Data analysis", imageURL: "https://s3-ap-northeast-1.amazonaws.com/netdb-web/member/tinglo.jpg", email: "pangtee14@gmail.com", github: "https://github.com/tinglo"}
   ],
   "alumni-member-title":"Alumni",
   "alumni-list":[
