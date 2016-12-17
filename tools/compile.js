@@ -1,8 +1,18 @@
 const path = require('path');
 const rootPath = path.normalize(__dirname + '/..');
+const templatePath = rootPath + '/templates';
+const templatesExtension = '.hbs';
 const Promise = require('bluebird');
 const fs = Promise.promisifyAll(require('fs'));
 const Handlebars = require('handlebars');
+
+
+var filenames = fs.readdirSync(templatePath);
+filenames.foreach(function(filename) {
+  fileBaseName = path.basename(filename);
+  var template = fs.readFileSync(templatePath + '/' + filename, 'utf8');
+  Handlebars.registerPartial(fileBaseName, template);
+});
 
 fs.readFileAsync('./compile.json', 'utf8')
   .then(function(compileStr) {
@@ -24,3 +34,4 @@ fs.readFileAsync('./compile.json', 'utf8')
         console.log("done");
       })
   });
+
