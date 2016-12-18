@@ -1,13 +1,4 @@
 const data = {
-  "title": "NetDB - 前瞻網路實驗室",
-  "header-title": "NETDB",
-  "about-title": "About",
-  "project-title": "Project",
-  "member-title": "Member",
-  "menu-title": "Menu",
-  "banner-title": "NETDB",
-  // "banner-intro": "PASSION · INNOVATION · SHARING",
-  "banner-intro": "熱情 · 創新 · 分享",
   "about-description": "NetDB是由一群有創業熱忱，想改變世界的人聚集而成的，在這裡我們關注科技、環境、社會，任何關於人的議題，我們想藉由吸引大家的注意力，進而帶動更多人一起改變世界，如果您有相同的熱忱，我們誠摯地邀請你加入。",
   "about-research-field-1": "Data Visualization",
   "about-research-field-1-desc": "將各式各樣的Open data用D3.js技術呈現與網頁上，透過資料視覺化，讓一般民眾也能輕易了解資料背後的意義。",

@@ -1,7 +1,7 @@
 [
     {
-        "layout": "/index.hbs",
-        "content": "/content/index-data.js",
-        "output": "/index.html"
+        "layout": "index.hbs",
+        "content": "content/index-data.js",
+        "output": "index.html"
     }
 ]
