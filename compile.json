@@ -3,5 +3,10 @@
         "layout": "index.hbs",
         "content": "content/index-data.js",
         "output": "index.html"
+    },
+    {
+        "layout": "project.hbs",
+        "content": "content/proj-data.js",
+        "output": "project.html"
     }
 ]

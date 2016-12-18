@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+
+  <body>
+    {{> menu}}
+    {{> header}}
+    {{> banner}}
+
+    <ul>
+      {{#each proj-list}}
+      <li>
+        {{project}}
+        <ul>
+          {{#each fields}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </li>
+      {{image_url}}
+      {{/each}}
+    </ul>
+
+    {{> footer}}
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</html>
